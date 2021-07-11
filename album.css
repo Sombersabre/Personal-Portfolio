@@ -27,11 +27,49 @@
   max-width: 40rem;
 }
 
-footer {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+.bgimage1{
+  background-image: url("Images/meg-boulden-3ojU4UXDydA-unsplash.jpg");
 }
 
-footer p {
-  margin-bottom: .25rem;
+.bgimage2{
+  background-image: url("Images/ilya-pavlov-OqtafYT5kTw-unsplash.jpg");
 }
+
+.bgimage3{
+  background-image: url("Images/cookie-the-pom-gySMaocSdqs-unsplash.jpg");
+}
+.parallax{
+  position: relative;
+  height: 90vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.captionText{
+  position:absolute;
+  font-size: xx-large;
+  color: #fff;
+  bottom: 20%;
+  left: 15%;
+}
+
+.darken{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+/*
+w3school code for mobile parallax issue
+Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+*/
