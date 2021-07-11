@@ -1,5 +1,5 @@
 :root {
-  --jumbotron-padding-y: 3rem;
+  --jumbotron-padding-y: 2rem;
 }
 
 .jumbotron {
@@ -19,10 +19,6 @@
   margin-bottom: 0;
 }
 
-.jumbotron-heading {
-  font-weight: 300;
-}
-
 .jumbotron .container {
   max-width: 40rem;
 }
@@ -38,9 +34,17 @@
 .bgimage3{
   background-image: url("Images/cookie-the-pom-gySMaocSdqs-unsplash.jpg");
 }
+
+.paraheightbig{
+  height: 90vh;
+}
+
+.paraheightmid{
+  height: 70vh;
+}
+
 .parallax{
   position: relative;
-  height: 90vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
