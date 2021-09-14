@@ -2,6 +2,7 @@
   --jumbotron-padding-y: 2rem;
 }
 
+
 .jumbotron {
   padding-top: var(--jumbotron-padding-y);
   padding-bottom: var(--jumbotron-padding-y);
@@ -32,7 +33,7 @@
 }
 
 .bgimage3{
-  background-image: url("Images/cookie-the-pom-gySMaocSdqs-unsplash.jpg");
+  background-image: url("Images/sigmund-4UGmm3WRUoQ-unsplash.jpg");
 }
 
 .paraheightbig{
