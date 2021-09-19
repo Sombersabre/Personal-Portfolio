@@ -60,6 +60,17 @@
   left: 15%;
 }
 
+.captionImage{
+  display: block;
+  position:absolute;
+  bottom: 40px;
+  right: 7.5%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .darken{
     position: absolute;
     top: 0;
@@ -69,6 +80,9 @@
     background-color: rgba(0, 0, 0, 0.85);
 }
 
+.test1{
+  border: solid yellow 2px;
+}
 /*
 w3school code for mobile parallax issue
 Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed
