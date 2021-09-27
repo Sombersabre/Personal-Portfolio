@@ -28,6 +28,7 @@
     <link href="album.css" rel="stylesheet">
 
     <script src="https://kit.fontawesome.com/3dc1cd0c40.js" crossorigin="anonymous"></script>
+
   </head>
   <body>
 
@@ -45,10 +46,10 @@
             <div class="col-sm-4 offset-md-1 py-4">
               <h4 class="text-white">Contact</h4>
               <ul class="list-unstyled">
-                <li><a href="#" class="text-white"></span><span class="far fa-envelope fa-lg fa-fw"></span>  Email</a></li>
-                <li><a href="#" class="text-white"></span><span class="fab fa-linkedin fa-lg fa-fw"></span>  linkedIn</a></li>
-                <li><a href="#" class="text-white"></span><span class="fab fa-discord fa-lg fa-fw"></span>  Discord</a></li>
-                <li><a href="#" class="text-white"></span><span class="fab fa-instagram fa-lg fa-fw"></span>  Instagram</a></li> 
+                <li><a href="#" class="text-white"><span class="far fa-envelope fa-lg fa-fw"></span>  Email</a></li>
+                <li><a href="#" class="text-white"><span class="fab fa-linkedin fa-lg fa-fw"></span>  linkedIn</a></li>
+                <li><a href="#" class="text-white"><span class="fab fa-discord fa-lg fa-fw"></span>  Discord</a></li>
+                <li><a href="#" class="text-white"><span class="fab fa-instagram fa-lg fa-fw"></span>  Instagram</a></li> 
               </ul>
             </div>
           </div>
@@ -73,20 +74,26 @@
     <!--Fix caption spacing-->
     <main id="main">
       <div class="container-fluid bgimage1 paraheightbig parallax">
-        <div class="darken">
-          <div class="captionText">
-            <h1>Hi, I'm Collins Ndegwa</h1>
-            <h5>Freelance Software Developer</h5>
-          </div>
-          <div class="captionImage">
-            <img class="" src="Images/CN Profile Transparent (1).png" height="500px" width="500px" alt="Image of Collins">
+        <div class="darken d-flex align-items-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm">
+                <div class="captionText">
+                  <h1>Hi, I'm Collins Ndegwa</h1>
+                  <h5>Freelance Software Developer</h5>
+                </div>
+              </div>
+              <div class="col-sm">
+                <img class="img-fluid" src="Images/CN Profile Transparent (1).png" alt="Image of Collins">
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
       <div>
         <div>
-          <section class="jumbotron jumbotron-fluid text-center bg-dark shadow border">
+          <section class="jumbotron jumbotron-fluid text-center bg-dark shadow">
             <div class="container text-white">
               <h2 class="font-weight-bolder">Website Catalogue</h2>
               <p class="lead font-weight-lighter">Browse through my collection. </p>
@@ -94,16 +101,16 @@
           </section>
           <section class="bg-dark pt-3 pb-2">
             <div class="container bg-dark">
-    
               <div class="row">
                 <div class="col-md-4">
                   <div class="card mb-4 shadow-sm">
                     <img class="card-img-top" src="Images/shahadat-rahman-BfrQnKBulYQ-unsplash2.jpg" alt="Card image cap">
                     <div class="card-body">
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <h5 class="card-title">Melafricanation</h5>
+                      <p class="card-text">A South African born start up that produces and sells organic hair oil.</p>
                       <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
-                          <button type="button" class="btn btn-sm btn-outline-secondary">Visit site</button>
+                          <button id="melafricabtn" type="button" class="btn btn-sm btn-outline-secondary">Visit site</button>
                         </div>
                         <small class="text-muted">live</small>
                       </div>
@@ -114,10 +121,11 @@
                   <div class="card mb-4 shadow-sm">
                     <img class="card-img-top" src="Images/shahadat-rahman-BfrQnKBulYQ-unsplash2.jpg" alt="Card image cap">
                     <div class="card-body">
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <h5 class="card-title">TNA Properties</h5>
+                      <p class="card-text">Property agents that manage and sell property in an around the city of Durban.</p>
                       <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
-                          <button type="button" class="btn btn-sm btn-outline-secondary">Visit site</button>
+                          <button id="tnabtn" type="button" class="btn btn-sm btn-outline-secondary">Visit site</button>
                         </div>
                         <small class="text-muted">9 mins</small>
                       </div>
@@ -128,7 +136,8 @@
                   <div class="card mb-4 shadow-sm">
                     <img class="card-img-top" src="Images/shahadat-rahman-BfrQnKBulYQ-unsplash2.jpg" alt="Card image cap">
                     <div class="card-body">
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <h5 class="card-title">JOE MOE Tribute page</h5>
+                      <p class="card-text">Tribute page of a very influential and remarkable man named JOE MOE</p>
                       <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
                           <button type="button" class="btn btn-sm btn-outline-secondary">Visit site</button>
@@ -138,63 +147,23 @@
                     </div>
                   </div>
                 </div>
-    
-                <div class="col-md-4">
-                  <div class="card mb-4 shadow-sm">
-                    <img class="card-img-top" src="Images/shahadat-rahman-BfrQnKBulYQ-unsplash2.jpg" alt="Card image cap">
-                    <div class="card-body">
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                          <button type="button" class="btn btn-sm btn-outline-secondary">Visit site</button>
-                        </div>
-                        <small class="text-muted">9 mins</small>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="card mb-4 shadow-sm">
-                    <img class="card-img-top" src="Images/shahadat-rahman-BfrQnKBulYQ-unsplash2.jpg" alt="Card image cap">
-                    <div class="card-body">
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                          <button type="button" class="btn btn-sm btn-outline-secondary">Visit site</button>
-                        </div>
-                        <small class="text-muted">9 mins</small>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="card mb-4 shadow-sm">
-                    <img class="card-img-top" src="Images/shahadat-rahman-BfrQnKBulYQ-unsplash2.jpg" alt="Card image cap">
-                    <div class="card-body">
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                          <button type="button" class="btn btn-sm btn-outline-secondary">Visit site</button>
-                        </div>
-                        <small class="text-muted">9 mins</small>
-                      </div>
-                    </div>
-                  </div>
-                </div> 
               </div>
             </div>
           </section>
         </div>
-        <div class="container-fluid bgimage3 paraheightmid parallax">
+      </div>
+        
+      <div class="container-fluid bgimage3 paraheightmid parallax">
           <div class="darken">
           </div>
         </div>
-        </div>
+
+        
         <div>
-          <section class="jumbotron jumbotron-fluid text-center bg-dark shadow border">
+          <section class="jumbotron jumbotron-fluid text-center bg-dark shadow">
             <div class="container text-white">
               <h2 class="font-weight-bolder">Merchandise Catalogue</h2>
-              <p class="lead font-weight-lighter">Support me through one of my online stores</p>
+              <p class="lead font-weight-lighter">Support me through one of my online gigs</p>
             </div>
           </section>
           <section class="bg-dark pt-3 pb-2">
@@ -205,10 +174,9 @@
                   <div class="card mb-4 shadow-sm">
                     <img class="card-img-top" src="Images/shahadat-rahman-BfrQnKBulYQ-unsplash2.jpg" alt="Card image cap">
                     <div class="card-body">
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                       <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
-                          <button type="button" class="btn btn-sm btn-outline-secondary">Visit site</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Redbubble Website</button>
                         </div>
                         <small class="text-muted">live</small>
                       </div>
@@ -219,67 +187,9 @@
                   <div class="card mb-4 shadow-sm">
                     <img class="card-img-top" src="Images/shahadat-rahman-BfrQnKBulYQ-unsplash2.jpg" alt="Card image cap">
                     <div class="card-body">
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                       <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
-                          <button type="button" class="btn btn-sm btn-outline-secondary">Visit site</button>
-                        </div>
-                        <small class="text-muted">9 mins</small>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="card mb-4 shadow-sm">
-                    <img class="card-img-top" src="Images/shahadat-rahman-BfrQnKBulYQ-unsplash2.jpg" alt="Card image cap">
-                    <div class="card-body">
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                          <button type="button" class="btn btn-sm btn-outline-secondary">Visit site</button>
-                        </div>
-                        <small class="text-muted">9 mins</small>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-    
-                <div class="col-md-4">
-                  <div class="card mb-4 shadow-sm">
-                    <img class="card-img-top" src="Images/shahadat-rahman-BfrQnKBulYQ-unsplash2.jpg" alt="Card image cap">
-                    <div class="card-body">
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                          <button type="button" class="btn btn-sm btn-outline-secondary">Visit site</button>
-                        </div>
-                        <small class="text-muted">9 mins</small>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="card mb-4 shadow-sm">
-                    <img class="card-img-top" src="Images/shahadat-rahman-BfrQnKBulYQ-unsplash2.jpg" alt="Card image cap">
-                    <div class="card-body">
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                          <button type="button" class="btn btn-sm btn-outline-secondary">Visit site</button>
-                        </div>
-                        <small class="text-muted">9 mins</small>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="card mb-4 shadow-sm">
-                    <img class="card-img-top" src="Images/shahadat-rahman-BfrQnKBulYQ-unsplash2.jpg" alt="Card image cap">
-                    <div class="card-body">
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                          <button type="button" class="btn btn-sm btn-outline-secondary">Visit site</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Fiverr website</button>
                         </div>
                         <small class="text-muted">9 mins</small>
                       </div>
@@ -293,23 +203,33 @@
       </div>
         
       <div class="container-fluid bgimage2 paraheightmid parallax">
-        <div class="darken">
-          <div class="captionText">
-            <h1>This marks the end of my content</h1>
-            <h5>but not the end of your journey, were only just beginning</h5>
+        <div class="darken d-flex align-items-center">
+          <div class="container d-flex justify-content-end align-items-end">
+            <div class="captionText">
+              <h1>This is not the end</h1>
+              <h6>Get in touch with a social link found down below</h6>
+            </div>
           </div>
         </div>
       </div>
     </main>
 
     <footer class="bg-dark shadow-sm">
-      <div class="container" style="height: 10vh;">
-        <div class="row pt-2">
-          <div class="col p-2 text-left">
-            <p  class="text-white mb-0">All rights reserved by Collins Ndegwa</p>
+      <div class="container d-flex align-items-center" style="height: 10vh;">
+        <div class="container d-flex justify-content-between align-items-center p-2">
+          <div class=" text-left">
+            <p  class="text-white mb-0"><span class="far fa-copyright fa-lg fa-fw"></span> Collins Ndegwa 2021</p>
           </div>
-          <div class="col p-2 text-right">
-            <a href="#topofsite" class="text-white font-weight-bold mb-0">Back to top</a>
+          <div class=" text-center d-flex justify-content-around align-items-center w-25">
+            
+              <div><a href="#" class="text-white"><span class="far fa-envelope fa-lg"></span></a></div>
+              <div><a href="#" class="text-white"><span class="fab fa-linkedin fa-lg"></span></a></div>
+              <div><a href="#" class="text-white"><span class="fab fa-discord fa-lg"></span></a></div>
+              <div><a href="#" class="text-white"><span class="fab fa-instagram fa-lg"></span></a></div> 
+            
+          </div>
+          <div class="text-right">
+            <a href="#topofsite" class="text-white font-weight-bold mb-0"><span class="fas fa-angle-double-up fa-lg fa-fw"></span>Back to top</a>
           </div>
         </div>
       </div>
@@ -322,10 +242,14 @@
     
 
     <!--offline script
-    <script src="C:/Users/Suzette/Websites/bootstrap-4.4.1/bootstrap-4.4.1/site/docs/4.4/assets/js/vendor/jquery.slim.min.js"></script>
     no popper
+    <script src="C:/Users/Suzette/Websites/bootstrap-4.4.1/bootstrap-4.4.1/site/docs/4.4/assets/js/vendor/jquery.slim.min.js"></script>
+    
     <script src="C:/Users/Suzette/Websites/bootstrap-4.4.1/dist/js/bootstrap.min.js" ></script>
     -->
+
+    <script src="script.js"></script>
+    
 
   </body>
 </html>

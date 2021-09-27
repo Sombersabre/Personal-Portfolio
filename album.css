@@ -53,22 +53,20 @@
 }
 
 .captionText{
-  position:absolute;
+  position: relative;
+  top: 65%;
   font-size: xx-large;
   color: #fff;
-  bottom: 20%;
-  left: 15%;
 }
+
 
 .captionImage{
   display: block;
   position:absolute;
   bottom: 40px;
   right: 7.5%;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  object-fit: contain;
+  object-position: center center;
 }
 
 .darken{
