@@ -1,6 +1,6 @@
 
-document.getElementById("melafricabtn").addEventListener("click",melafricalink);
-document.getElementById("tnabtn").addEventListener("click",tnalink);
+//document.getElementById("melafricabtn").addEventListener("click",melafricalink);
+//document.getElementById("tnabtn").addEventListener("click",tnalink);
 
 function melafricalink(){
    window.open('https://melafricanation.netlify.app', '_blank');
