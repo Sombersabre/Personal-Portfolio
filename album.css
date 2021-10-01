@@ -1,5 +1,6 @@
 :root {
   --jumbotron-padding-y: 2rem;
+  --black: black;
 }
 
 
@@ -78,9 +79,18 @@
     background-color: rgba(0, 0, 0, 0.85);
 }
 
+.gradienter{
+  background-image: linear-gradient(to bottom right, black, grey);
+}
+
 .test1{
   border: solid yellow 2px;
 }
+
+.cardimgborder{
+  border: solid lightgray 2px;
+}
+
 /*
 w3school code for mobile parallax issue
 Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed
